@@ -1,4 +1,4 @@
-package golang_gorotines
+package golang_goroutines
 
 import (
 	"fmt"
