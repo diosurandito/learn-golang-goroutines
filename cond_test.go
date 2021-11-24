@@ -32,5 +32,10 @@ func TestCond(t *testing.T) {
 		}
 	}()
 
+	// go func() {
+	// 	time.Sleep(1 * time.Second)
+	// 	cond.Broadcast()
+	// }()
+
 	group.Wait()
 }
